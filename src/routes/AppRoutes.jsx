@@ -3,9 +3,6 @@ import React from 'react'
 
 // Importamos los componentes de las páginas
 import Login from '../components/login/Login'
-import BasicButtons from '../components/login/BasicButtons';
-import IconLabelButtons from '../components/login/IconLabelButtons';
-import LoginForm from '../components/login/loginForm';
 import Selector from '../components/selector/Selector';
 import Libros_disponibles from '../components/disponibles/Libros_disponibles';
 import Registros from '../components/registros/Registros';  
@@ -26,7 +23,7 @@ export default function AppRoutes() {
              <Route path="/libros" element={<Libros_disponibles />} />
              <Route path="/registros" element={<Registros />} />
              <Route path="/registros/nuevo" element={<Nuevo_registro />} />
-             <Route path="/test" element={<LoginForm />} />
+             
         </Routes>
     )
 }
