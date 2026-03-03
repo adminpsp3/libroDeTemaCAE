@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from "react-router-dom";
 import React from 'react'
 
 // Importamos los componentes de las páginas
@@ -23,6 +23,9 @@ export default function AppRoutes() {
              <Route path="/libros" element={<Libros_disponibles />} />
              <Route path="/registros" element={<Registros />} />
              <Route path="/registros/nuevo" element={<Nuevo_registro />} />
+             <Route path="*" element={<Navigate to="/registros" replace />} />
+
+             
              
         </Routes>
     )
