@@ -71,6 +71,7 @@ export default function Libros_disponibles() {
     setSelectedIndex(index);
     localStorage.setItem('urlApi', registro.urlApi || '');
     alert(registro.urlApi);
+    console.log('>>', registro.urlApi);
     localStorage.setItem('espacioCurricular', registro['Espacio Curricular'] || '');
     localStorage.setItem('docente', registro.Docente || '');
     navigate('/registros');
