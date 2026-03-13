@@ -30,7 +30,8 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from 'dayjs';
 import 'dayjs/locale/es';
 
-const API_URL = localStorage.getItem('urlApi');
+//const API_URL = localStorage.getItem('urlApi');
+const API_URL = 'https://script.google.com/macros/s/AKfycbxH-cYnNeCkbz7zWHXRhDl0sNA6OwqSVLBiegiWyPkQOItLiHYXfCQJUu6H9FbNDH98/exec';
 alert( API_URL);
 //  'https://script.google.com/macros/s/AKfycbysKaPOMGooPeqcGi5zcWXV_3Dzocp6i2WtrcZNn9s8poIr1WJv-xboxMELnbTbUnUr/exec';
 
