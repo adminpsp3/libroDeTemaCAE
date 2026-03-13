@@ -31,6 +31,7 @@ import dayjs from 'dayjs';
 import 'dayjs/locale/es';
 
 const API_URL = localStorage.getItem('urlApi');
+alert( API_URL);
 //  'https://script.google.com/macros/s/AKfycbysKaPOMGooPeqcGi5zcWXV_3Dzocp6i2WtrcZNn9s8poIr1WJv-xboxMELnbTbUnUr/exec';
 
 const formatFecha = (dayjsObj) => {
